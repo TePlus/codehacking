@@ -25,6 +25,7 @@ Route::get('/admin', function(){
 
 Route::resource('admin/users','AdminUsersController');
 
+/*
 Route::group(['middleware'=>'admin'], function(){
     Route::resource('admin/users', 'AdminUsersController');
     Route::resource('admin/posts', 'AdminPostsController');
@@ -35,3 +36,4 @@ Route::group(['middleware'=>'admin'], function(){
     // Exercises.
 //    Route::get('admin/media/upload', ['as'=>'admin.media.upload', function()]);
 });
+*/
