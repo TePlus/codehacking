@@ -1,7 +1,11 @@
 @extends('layouts/admin')
 
 @section('content')
+    <div class="row">
     <h1>Users</h1>
+    </div>
+
+    <div class="row">
     <table class="table">
         <thead>
         <tr>
@@ -34,6 +38,7 @@
         @endif
         </tbody>
     </table>
+    </div>
 @endsection
 
 @section('footer')

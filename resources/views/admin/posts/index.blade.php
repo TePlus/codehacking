@@ -1,8 +1,11 @@
 @extends('layouts/admin')
 
 @section('content')
-    <h1>Posts</h1>
 
+    <div class="row">
+    <h1>Posts</h1>
+    </div>
+    <div class="row">
     <table class="table">
         <thead>
         <tr>
@@ -23,7 +26,7 @@
                     <td>{{$post->id}}</td>
                     <td><img height="50" src="{{$post->photo ? $post->photo->file : 'http://www.immersion-3d.com/wp-content/uploads/2015/12/image-placeholder-500x500.jpg'}}" alt=""></td>
                     <td>{{$post->user->name}}</td>
-                    <td>{{$post->category_id}}</td>
+                    <td>{{$post->category ? $post->category->name : 'Uncategorized'}}</td>
                     <td>{{$post->title}}</td>
                     <td>{{$post->body}}</td>
                     <td>{{$post->created_at->diffForHumans()}}</td>
@@ -33,6 +36,7 @@
         @endif
         </tbody>
     </table>
+    </div>
 
 @endsection
 

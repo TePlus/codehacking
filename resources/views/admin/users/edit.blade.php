@@ -1,7 +1,10 @@
 @extends('layouts/admin')
 
 @section('content')
+
+    <div class="row">
     <h1>Edit Users</h1>
+    </div>
 
     <div class="row">
 

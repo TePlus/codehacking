@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="row">
-    <h1>Create Posts</h1>
+        <h1>Create Posts</h1>
     </div>
 
     <div class="row">
@@ -15,7 +15,7 @@
 
         <div class="form-group">
             {!! Form::label('category_id', 'Category:') !!}
-            {!! Form::select('category_id',[''=>'Choose Options'] + $categories, ['class' => 'form-control']) !!}
+            {!! Form::select('category_id',[''=>'Choose Categories'] + $categories, null, ['class' => 'form-control']) !!}
         </div>
 
         <div class="form-group">
