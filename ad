@@ -1,0 +1,29 @@
+[33mcommit 32604a2d01001471ef6c83ef696e051227f071be[m
+Author: TePlus <teplus.p@gmail.com>
+Date:   Wed Jan 4 21:39:22 2017 +0700
+
+    user section working 100 percent - except security
+
+[33mcommit 60ed733cfdb2c6f3567dd4cb09d9c1eafb517bc5[m
+Author: TePlus <teplus.p@gmail.com>
+Date:   Wed Jan 4 15:26:04 2017 +0700
+
+    users with photos working
+
+[33mcommit 73989cfda5f205f16a1cdbe7ba5cf7321d9a2c3f[m
+Author: TePlus <teplus.p@gmail.com>
+Date:   Wed Jan 4 02:17:49 2017 +0700
+
+    users page working without photo
+
+[33mcommit 984c702c3a123923de2bfcfc4e9d03fbf6cab845[m
+Author: TePlus <teplus.p@gmail.com>
+Date:   Wed Jan 4 00:47:37 2017 +0700
+
+    admin master page setup
+
+[33mcommit 435b8149347c17234b82c293a9a2bb35b59bd43b[m
+Author: TePlus <teplus.p@gmail.com>
+Date:   Tue Jan 3 23:29:19 2017 +0700
+
+    my first comming - admin views created
